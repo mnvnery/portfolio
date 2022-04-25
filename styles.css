@@ -30,6 +30,10 @@ a {
     margin: 1vh 0;
 }
 
+.project-flex a {
+    width: 60%;
+}
+
 .lighter {
     opacity: 0.3;
 }
@@ -56,11 +60,21 @@ a {
     opacity: 1;
     transition: 1s;
 }
-
-
-@media only screen and (min-width: 1920px) {
+.video-container {
+    position: absolute;
+    top: 15px;
+    width: 100vw;
+}
+@media screen and (min-width: 1910px) {
+    
+}
+@media screen and (min-width: 1910px) {
     .project-video {
         height: 50vh;
+    }
+    .video-container {
+        height: 60vh;
+        align-items: center;
     }
 }
 @media only screen and (max-width: 600px) {
